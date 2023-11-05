@@ -3,8 +3,9 @@
 export const Footer = () => {
     return (
         <>
-            <footer className="footer p-10 bg-[#191919] text-white">
-                <aside>
+            <footer className="bg-[#191919]" >
+            <div className="footer p-10 container text-white">
+            <aside>
                     <h2>CareerHub</h2>
                     <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
                 </aside>
@@ -28,6 +29,7 @@ export const Footer = () => {
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
+            </div>
             </footer>
 
         </>
